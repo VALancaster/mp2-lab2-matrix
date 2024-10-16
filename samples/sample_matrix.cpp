@@ -13,8 +13,7 @@ void main()
   TDynamicMatrix<int> a(5), b(5), c(5);
   int i, j;
 
-  setlocale(LC_ALL, "Russian");
-  cout << "Тестирование класс работы с матрицами"
+  cout << "Testing matrix class"
     << endl;
   for (i = 0; i < 5; i++)
     for (j = i; j < 5; j++ )
